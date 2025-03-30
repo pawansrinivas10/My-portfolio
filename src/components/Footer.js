@@ -14,16 +14,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3>Designed and Developed by pawansrinivas10</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {year} SP</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/pawansrinivas10"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -31,16 +31,7 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
+            
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/soumyajit4419/"
@@ -51,14 +42,44 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
+            {/* <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/sai-pawan-srinivas-98b4b9284/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
+              >
+                <FaLinkedinIn />
+              </a>
+            </li> */}
+            
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="https://codeforces.com/profile/pawansrinivas10"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
               >
-                <AiFillInstagram />
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Codeforces_logo.png"
+                  alt="Codeforces"
+                  style={{ width: "24px", height: "24px" }}
+                />
+              </a>
+            </li>
+            
+            <li className="social-icons">
+              <a
+                href="https://leetcode.com/pawansrinivas10"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
+              >
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+                  alt="LeetCode"
+                  style={{ width: "24px", height: "24px" }}
+                />
               </a>
             </li>
           </ul>

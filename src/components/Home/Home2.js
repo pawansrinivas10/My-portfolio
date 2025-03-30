@@ -19,12 +19,10 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              
+              <br />I am fluent in languages like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple">Java, Javascript, Python, C++. </b>
               </i>
               <br />
               <br />
@@ -33,12 +31,12 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  Machine Learning.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
+              I use my passion for coding to develop products
               with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
@@ -67,7 +65,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/pawansrinivas10"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,36 +73,50 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+              
               <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+  <a
+    href="https://www.linkedin.com/in/sai-pawan-srinivas-98b4b9284/"
+    target="_blank"
+    rel="noreferrer"
+    className="icon-colour home-social-icons"
+  >
+    <FaLinkedinIn />
+  </a>
+</li>
+
+<li className="social-icons">
+  <a
+    href="https://codeforces.com/profile/pawansrinivas10"
+    target="_blank"
+    rel="noreferrer"
+    className="icon-colour home-social-icons"
+  >
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Codeforces_logo.png"
+      alt="Codeforces"
+      style={{ width: "24px", height: "24px" }}
+    />
+  </a>
+</li>
+
+<li className="social-icons">
+  <a
+    href="https://leetcode.com/pawansrinivas10"
+    target="_blank"
+    rel="noreferrer"
+    className="icon-colour home-social-icons"
+  >
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+      alt="LeetCode"
+      style={{ width: "24px", height: "24px" }}
+    />
+  </a>
+</li>
+
+
+              
             </ul>
           </Col>
         </Row>
